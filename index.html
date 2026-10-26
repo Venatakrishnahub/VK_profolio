@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Venkata Krishna, Full Stack Developer specializing in Java, Spring Boot, Angular, Python, and ERPNext.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Venkata Krishna | Full Stack Developer</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Venkata Krishna home"><span>VK</span><b>.</b></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="Venkata_Krishna_Resume.pdf" download="Venkata_Krishna_Resume.pdf">Resume</a>
+        <a class="nav-contact" href="#contact">Contact <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER · BANGALORE, INDIA</p>
+        <h1>Building useful digital experiences with <span class="gradient-text">code & creativity.</span></h1>
+        <p class="typed-line">I build <span id="typed">Java & Angular apps</span><span class="cursor"></span></p>
+        <p class="hero-intro">I'm <strong>Venkata Krishna</strong>, a full-stack developer working across Java, Spring Boot, Angular, Python, and ERP solutions. I turn business requirements into reliable, user-friendly applications.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <i data-lucide="arrow-up-right"></i></a>
+          <a class="button button-secondary" href="Venkata_Krishna_Resume.pdf" download="Venkata_Krishna_Resume.pdf"><i data-lucide="download"></i> Download Resume</a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Venatakrishnahub" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub</a>
+          <a href="mailto:venkatakrishnasiginam4@gmail.com"><i data-lucide="mail"></i> Email</a>
+          <span><i data-lucide="map-pin"></i> Bangalore, India</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Developer portrait">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <span class="photo-fallback" aria-hidden="true">VK</span>
+            <img src="images/krishna.png" alt="Portrait of Venkata Krishna" width="400" height="400" decoding="async" onerror="this.style.display='none'">
+          </div>
+        </div>
+        <div class="float-chip chip-java"><span>☕</span> Java / Spring Boot</div>
+        <div class="float-chip chip-angular"><span>◈</span> Angular</div>
+        <div class="float-chip chip-python"><span>🐍</span> Python</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Engineering ideas into <span class="gradient-text">real solutions.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">I’m a software developer with hands-on experience building enterprise web applications, mobile apps, and ERP workflows.</p>
+          <p>At E2E Rosh IT Solutions, I work on Angular interfaces, Java/Spring Boot API integrations, and ERPNext customizations. My work includes building forms and dashboards, implementing validations, troubleshooting integration issues, and automating business processes.</p>
+          <p>I enjoy understanding the problem behind a feature, writing maintainable code, and collaborating with teams to deliver dependable software. I’m continuing to grow across full-stack development, Python, and ERP platforms.</p>
+          <div class="about-highlights">
+            <div><strong>Full Stack</strong><span>Frontend + Backend</span></div>
+            <div><strong>Business Apps</strong><span>ERP & workflows</span></div>
+            <div><strong>Always Learning</strong><span>Build, improve, repeat</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Technologies I <span class="gradient-text">work with.</span></h2>
+          <p class="section-subtitle">A practical toolkit for building complete, maintainable applications.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon purple"><i data-lucide="server"></i></div><h3>Backend</h3><p>Java · Spring Boot · Python · REST APIs · Django · Flask · FastAPI</p></article>
+          <article class="skill-card"><div class="skill-icon cyan"><i data-lucide="panels-top-left"></i></div><h3>Frontend</h3><p>Angular · TypeScript · JavaScript · React · HTML5 · CSS3</p></article>
+          <article class="skill-card"><div class="skill-icon orange"><i data-lucide="database"></i></div><h3>Data & Integration</h3><p>MySQL · SQL Server · API integration · Data validation</p></article>
+          <article class="skill-card"><div class="skill-icon green"><i data-lucide="workflow"></i></div><h3>ERP & Automation</h3><p>Frappe Framework · ERPNext · Workflow customization · Reports</p></article>
+          <article class="skill-card"><div class="skill-icon pink"><i data-lucide="smartphone"></i></div><h3>Mobile</h3><p>Flutter · Cross-platform application development</p></article>
+          <article class="skill-card"><div class="skill-icon blue"><i data-lucide="git-branch"></i></div><h3>Engineering</h3><p>Git · GitHub · SDLC · Debugging · Responsive UI · Problem-solving</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / EXPERIENCE</p><h2>Where I’ve <span class="gradient-text">made an impact.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-head"><div><h3>Software Developer — Full-Stack / ERPNext</h3><p class="company">E2E Rosh IT Solutions · Bangalore, India</p></div><span class="date-tag">May 2025 – Present</span></div>
+            <ul>
+              <li>Develop Angular UI modules for Claims and CMS applications, including dashboards, master screens, and configuration forms.</li>
+              <li>Integrate Java/Spring Boot REST APIs with frontend components for data updates, form submissions, and report views.</li>
+              <li>Customize ERPNext modules, doctypes, workflows, reports, and integrations to support business processes.</li>
+              <li>Troubleshoot UI, API, validation, email, document-processing, and PDF-generation issues.</li>
+              <li>Contribute to the Tobacco Board HRMS application using Angular and Java/Spring Boot, including employee forms, upload validations, payroll-related workflows, and posting updates.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-head"><div><h3>Associate Software Intern</h3><p class="company">Simtekway Solutions · Bangalore, India</p></div><span class="date-tag">Feb 2024 – Jun 2024</span></div>
+            <ul>
+              <li>Practiced Python, HTML, CSS, and core web development concepts.</li>
+              <li>Built a responsive e-commerce website with dynamic shopping-cart quantity controls.</li>
+              <li>Developed practical experience with database-driven applications and user-friendly interfaces.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">04 / SELECTED WORK</p><h2>Projects & <span class="gradient-text">focus areas.</span></h2><p class="section-subtitle">A selection of work based on my development experience and technical interests.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured"><div class="project-top"><span class="project-number">01</span><i data-lucide="briefcase-business"></i></div><p class="project-type">ENTERPRISE APPLICATION</p><h3>Tobacco Board HRMS</h3><p>Contributing to an HRMS application with employee information forms, document-upload validations, posting updates, and payroll-related workflows.</p><div class="tag-list"><span>Angular</span><span>Java</span><span>Spring Boot</span><span>SQL Server</span></div><span class="project-note">Ongoing client project · In development</span></article>
+          <article class="project-card"><div class="project-top"><span class="project-number">02</span><i data-lucide="workflow"></i></div><p class="project-type">ERP & BUSINESS AUTOMATION</p><h3>ERPNext Customizations</h3><p>Customized ERPNext modules, doctypes, reports, document workflows, notifications, and REST API integrations for business processes.</p><div class="tag-list"><span>ERPNext</span><span>Frappe</span><span>Python</span><span>REST APIs</span></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-number">03</span><i data-lucide="message-circle"></i></div><p class="project-type">AI / WEB APPLICATION</p><h3>ICSE Syllabus Chatbot</h3><p>Built an interactive chatbot concept for students in grades 5–12 using Flask, JavaScript, and the OpenAI API.</p><div class="tag-list"><span>Python</span><span>Flask</span><span>JavaScript</span><span>OpenAI API</span></div></article>
+          <article class="project-card"><div class="project-top"><span class="project-number">04</span><i data-lucide="shopping-cart"></i></div><p class="project-type">WEB DEVELOPMENT</p><h3>E-commerce Website</h3><p>Developed a responsive e-commerce website with interactive cart functionality and dynamic product quantity controls.</p><div class="tag-list"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        </div>
+        <p class="project-disclaimer">Project descriptions are summaries. Client work and internal systems may not be publicly accessible.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container section-grid">
+        <div class="section-heading reveal"><p class="eyebrow">05 / EDUCATION</p><h2>Learning is a <span class="gradient-text">continuous process.</span></h2></div>
+        <div class="education-list">
+          <article class="education-card"><div class="education-icon"><i data-lucide="graduation-cap"></i></div><div><h3>Bachelor of Engineering — Electronics & Communication</h3><p>Prathyusha Engineering College, Tamil Nadu</p><span>2019 – 2023 · CGPA 8.2</span></div></article>
+          <article class="education-card"><div class="education-icon"><i data-lucide="book-open"></i></div><div><h3>Python Full Stack Training</h3><p>Quality Thoughts, Hyderabad</p><span>Certification</span></div></article>
+          <article class="education-card"><div class="education-icon"><i data-lucide="database"></i></div><div><h3>MySQL Certificate</h3><p>Prathyusha College, Chennai</p><span>Certification</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-card reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Have a project in mind?<br><span class="gradient-text">Let’s build something useful.</span></h2>
+        <p>I’m happy to connect about software development, full-stack opportunities, ERP solutions, and collaborative projects.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:venkatakrishnasiginam4@gmail.com">Email me <i data-lucide="arrow-up-right"></i></a>
+          <a class="button button-secondary" href="Venkata_Krishna_Resume.pdf" download="Venkata_Krishna_Resume.pdf"><i data-lucide="download"></i> Download Resume</a>
+          <a class="button button-secondary" href="https://github.com/Venatakrishnahub" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub</a>
+        </div>
+        <p class="contact-email">venkatakrishnasiginam4@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span>VK</span><b>.</b></a><p>Designed & built by Venkata Krishna</p><p>© <span id="year"></span> All rights reserved.</p><a class="back-top" href="#home" aria-label="Back to top"><i data-lucide="arrow-up"></i></a></div></footer>
+</body>
+</html>
